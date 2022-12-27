@@ -6,35 +6,35 @@
       <a href="/" class="flex items-center mb-4 sm:mb-0">
         <img src="/img/logo-500.png" class="mr-15 h-20" alt="Kismetse Olur" />
       </a>
-      <ul class="flex flex-wrap items-center mb-6 sm:mb-0">
+      <ul class="flex flex-wrap items-center mb-6 gap-12 sm:mb-0">
         <li>
           <router-link
             to="/"
-            class="block py-2 pl-3 pr-4 text-black text-lg rounded hover:scale-125 transition duration-200 md:hover:text-pink-700 mr-4 md:mr-6"
+            class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200"
             aria-current="page"
             >Anasayfa</router-link
           >
         </li>
         <li>
           <router-link
-            to="/"
-            class="block py-2 pl-3 pr-4 text-black text-lg rounded hover:scale-125 transition duration-200 md:hover:text-pink-700 mr-4 md:mr-6"
+            to="/basvurular"
+            class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200"
             aria-current="page"
             >Başvurular</router-link
           >
         </li>
         <li>
           <router-link
-            to="/"
-            class="block py-2 pl-3 pr-4 text-black text-lg rounded hover:scale-125 transition duration-200 md:hover:text-pink-700 mr-4 md:mr-6"
+            to="/duyurular"
+            class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200"
             aria-current="page"
             >Duyurular</router-link
           >
         </li>
         <li>
           <router-link
-            to="/"
-            class="block py-2 pl-3 pr-4 text-black text-lg rounded hover:scale-125 transition duration-200 md:hover:text-pink-700 mr-4 md:mr-6"
+            to="/iletisim"
+            class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200"
             aria-current="page"
             >İletişim</router-link
           >
