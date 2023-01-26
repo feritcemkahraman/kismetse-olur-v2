@@ -11,7 +11,7 @@ const routes = [
         name: "homeview",
         component: () => import("../views/HomeView.vue"),
         meta: {
-          tab_title: "Kısmetse Olur Aşkın Gücü",
+          tab_title: "Kısmetse Olur: Aşkın Gücü",
         },
       },
       {
@@ -35,6 +35,14 @@ const routes = [
         name: "iletisim",
         component: () => import("../views/İletisim.vue"),
       },
+      {
+        path: "/kullanim-gizlilik",
+        name: "kullanim-gizlilik",
+        component: () => import("../views/KullanimSartlari.vue"),
+        meta: {
+          tab_title: "Kullanım Şartları ve Gizlilik Politikası",
+        },
+      },
     ],
   },
 ];
@@ -48,7 +56,7 @@ router.beforeEach((to, from, next) => {
   if (to.meta.tab_title) {
     document.title = to.meta.tab_title;
   } else {
-    document.title = "İletişim";
+    document.title = "Kısmetse Olur: Aşkın Gücü";
   }
   next();
 });
