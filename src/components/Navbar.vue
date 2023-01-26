@@ -84,9 +84,7 @@
 </template>
 
 <script>
-export default {
-  title: "",
-};
+export default {};
 // set the target element that will be collapsed or expanded (eg. navbar menu)
 const targetEl = document.getElementById("targetEl");
 

@@ -6,5 +6,3 @@ import store from "./store";
 import "/src/assets/index.css";
 import "flowbite";
 createApp(App).use(store).use(router).mount("#app");
-import titleMixin from "/mixins/titleMixin.js";
-Vue.mixin(titleMixin);

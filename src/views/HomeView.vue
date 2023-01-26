@@ -26,9 +26,7 @@
 </template>
 
 <script>
-export default {
-  title: "",
-};
+export default {};
 </script>
 
 <style></style>

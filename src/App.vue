@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("/public/img/mesh-898.png");
+  background-image: url("/public/img/mesh-145.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
