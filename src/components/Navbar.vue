@@ -11,7 +11,7 @@
       <div class="flex md:order-2">
         <button
           type="button"
-          class="text-white bg-pink-600 hover:bg-pink-400 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center mr-3 md:mr-0"
+          class="text-white bg-pink-600 hover:bg-pink-500 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center mr-3 md:mr-0"
         >
           Başvur
         </button>
@@ -84,7 +84,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  title: "",
+};
 // set the target element that will be collapsed or expanded (eg. navbar menu)
 const targetEl = document.getElementById("targetEl");
 

@@ -5,12 +5,18 @@
         <img src="/img/logo-500.png" alt="Shoes" class="rounded-xl" />
       </figure>
       <div class="card-body items-center text-center">
-        <h1 class="card-title mb-6">Kısmetse Olur Başvuru Formu</h1>
+        <h1 class="card-title mb-12 text-white">Kısmetse Olur Başvuru Formu</h1>
         <div class="card-actions">
-          <button class="btn btn-primary px-28 mb-2">Başvur</button>
+          <button
+            class="btn btn-primary px-32 mb-2 text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case"
+          >
+            Başvur
+          </button>
         </div>
         <div class="card-actions">
-          <button class="btn btn-primary px-3 border-l">
+          <button
+            class="btn btn-primary px-4 border-l text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case"
+          >
             Yarışmacı Adayı Aydınlatma Metni
           </button>
         </div>
@@ -20,7 +26,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  title: "",
+};
 </script>
 
 <style></style>
