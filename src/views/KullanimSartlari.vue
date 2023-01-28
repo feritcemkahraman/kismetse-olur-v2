@@ -1,7 +1,7 @@
 <template>
   <div
     id="cont"
-    class="container content mb-5 mt-5 p-5 shadow text-white text-lg mx-auto"
+    class="container content mb-5 mt-5 p-5 shadow text-white text-lg mx-auto overflow-visible"
   >
     <h1 class="uppercase mb-10 mt-10 text-3xl">Kullanım Şartları</h1>
     <p class="font-bold">
@@ -61,7 +61,7 @@
     </p>
 
     <h1 class="uppercase mb-10 mt-10 text-3xl">Gizlilik Politikası</h1>
-    <p class="mb-14">
+    <p class="mb-14 font-bold">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab nesciunt
       dignissimos aliquam culpa beatae eius dicta modi aut sit rem maiores earum
       fugit maxime error non iure molestias quia iste ea, magnam, fuga illo
