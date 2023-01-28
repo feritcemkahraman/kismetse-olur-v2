@@ -6,35 +6,18 @@
       </a>
       <ul class="flex flex-wrap items-center mb-6 gap-12 sm:mb-0">
         <li>
-          <router-link
-            to="/kullanim-gizlilik"
-            class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200"
-            aria-current="page"
-            >Kullanım Şartları ve Gizlilik Politikası</router-link
-          >
+          <router-link to="/kullanim-gizlilik" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Kullanım Şartları ve Gizlilik Politikası</router-link>
         </li>
         <li>
-          <router-link
-            to="/basvurular"
-            class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200"
-            aria-current="page"
-            >Aydınlatma Metni</router-link
-          >
+          <router-link to="/basvurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Aydınlatma Metni</router-link>
         </li>
         <li>
-          <router-link
-            to="/duyurular"
-            class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200"
-            aria-current="page"
-            >Çerez Politikası</router-link
-          >
+          <router-link to="/duyurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Çerez Politikası</router-link>
         </li>
       </ul>
     </div>
     <hr class="my-6 border-gray-300 sm:mx-auto lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
-      >© 2023 Ferit Cem Kahraman | Kısmetse Olur v2 | All Rights Reserved.
-    </span>
+    <span class="block text-sm text-gray-500 sm:text-center">© 2023 Ferit Cem Kahraman | Kısmetse Olur v2 | All Rights Reserved.</span>
   </footer>
 </template>
 
@@ -42,10 +25,10 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 #foot {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
 }
 </style>

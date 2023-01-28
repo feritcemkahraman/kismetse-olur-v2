@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-layout">
     <Navbar></Navbar>
     <router-view />
     <Footer></Footer>
@@ -18,4 +18,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.main-layout {
+  background-image: url("/public/img/mesh-145.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+</style>
