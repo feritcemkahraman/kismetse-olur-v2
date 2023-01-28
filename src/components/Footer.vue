@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="bg-pink-100 fixed bottom-0 left-0 right-0 shadow md:px-6 md:py-8"
-  >
+  <footer id="foot" class="bg-pink-100 shadow px-6 py-8">
     <div class="sm:flex sm:items-center sm:justify-between">
       <a href="/" class="flex items-center mb-4 sm:mb-0">
         <img src="/img/logo-500.png" class="mr-15 h-20" alt="Kismetse Olur" />
@@ -44,4 +42,10 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+#foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+</style>

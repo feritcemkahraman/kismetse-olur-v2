@@ -1,7 +1,7 @@
 <template>
   <div
     id="cont"
-    class="container content mb-5 mt-5 p-5 shadow text-white text-lg mx-auto overflow-visible"
+    class="container mb-5 mt-5 p-5 shadow text-white text-lg mx-auto"
   >
     <h1 class="uppercase mb-10 mt-10 text-3xl">Kullanım Şartları</h1>
     <p class="font-bold">
@@ -74,7 +74,26 @@
       esse consequatur iste in, laborum distinctio enim, voluptates, molestias
       ut eius impedit quas explicabo est? Suscipit, quaerat dolore debitis id
       eum beatae in expedita ipsa sapiente quisquam nemo nisi animi mollitia
-      sequi neque provident!
+      sequi neque provident! Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Vitae culpa nobis quod adipisci neque porro, laboriosam illum quos
+      autem, quidem ipsum. Unde sunt nulla consequatur praesentium inventore
+      molestiae vero cumque. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Totam nesciunt exercitationem dolores numquam commodi cumque
+      praesentium quae! Culpa excepturi rem unde ullam quis quibusdam
+      perspiciatis nihil magni iure, quasi deserunt esse eum reiciendis quae
+      saepe? Quas corporis ea quibusdam, officia blanditiis unde praesentium quo
+      provident veritatis vitae iste earum doloremque. Lorem ipsum dolor sit,
+      amet consectetur adipisicing elit. Laudantium voluptate reiciendis fugit
+      debitis veniam perferendis itaque cumque pariatur! Distinctio quaerat,
+      iste beatae suscipit possimus dolor officiis nisi modi laboriosam.
+      Molestias, laudantium esse? Debitis, delectus, vitae nihil porro et aut
+      nobis beatae ducimus placeat fugiat recusandae. Quae illo accusantium
+      fugit enim minus laboriosam eius quia ratione blanditiis accusamus
+      explicabo, nemo repellat vero tempora adipisci consectetur atque dolores,
+      sit odit non! Totam incidunt reprehenderit earum, ipsam quas aut
+      exercitationem at libero velit tempora natus commodi nemo nihil a repellat
+      similique iste eius voluptatem dolor debitis quod aspernatur facere ex
+      voluptates? Animi, provident.
     </p>
   </div>
 </template>

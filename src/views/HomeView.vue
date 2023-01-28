@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center mt-48">
+  <div class="flex justify-center items-center mt-56">
     <div class="card shadow-xl">
       <figure class="px-10 pt-10">
         <img src="/img/logo-500.png" alt="Shoes" class="rounded-xl" />
