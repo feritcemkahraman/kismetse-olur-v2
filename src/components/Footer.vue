@@ -1,5 +1,5 @@
 <template>
-  <footer id="foot" class="bg-pink-100 shadow px-6 py-8">
+  <footer id="foot" class="bg-pink-100 shadow px-6 py-6">
     <div class="sm:flex sm:items-center sm:justify-between">
       <a href="/" class="flex items-center mb-4 sm:mb-0">
         <img src="/img/logo-500.png" class="mr-15 h-20" alt="Kismetse Olur" />
