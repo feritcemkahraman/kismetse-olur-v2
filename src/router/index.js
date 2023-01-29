@@ -43,6 +43,14 @@ const routes = [
           tab_title: "Kullanım Şartları ve Gizlilik Politikası",
         },
       },
+      {
+        path: "/aydinlatma-metni",
+        name: "aydinlatma-metni",
+        component: () => import("../views/AydinlatmaMetni.vue"),
+        meta: {
+          tab_title: "Kişisel Verilerin İşlenmesine İlişkin Yarışmacı Adayı Aydınlatma Metni",
+        },
+      },
     ],
   },
 ];

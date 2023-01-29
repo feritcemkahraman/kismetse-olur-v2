@@ -10,7 +10,7 @@
           <button class="btn btn-primary px-32 mb-2 text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case">Başvur</button>
         </div>
         <div class="card-actions">
-          <button class="btn btn-primary px-4 border-l text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case">Yarışmacı Adayı Aydınlatma Metni</button>
+          <router-link :to="{ path: '/aydinlatma-metni' }" target="_blank"><button class="btn btn-primary px-4 border-l text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case">Yarışmacı Adayı Aydınlatma Metni</button></router-link>
         </div>
       </div>
     </div>
