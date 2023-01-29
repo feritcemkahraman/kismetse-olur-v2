@@ -17,7 +17,7 @@
           </li>
         </ul>
       </div>
-      <a href="/" class="flex items-center sm:ml-12">
+      <a href="/" class="flex items-center ml-4">
         <img src="/img/logo-500.png" class="h-14 sm:h-20" alt="Kısmetse Olur" />
       </a>
     </div>
