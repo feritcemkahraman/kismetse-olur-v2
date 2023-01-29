@@ -15,14 +15,6 @@ const routes = [
         },
       },
       {
-        path: "/basvurular",
-        name: "basvurular",
-        component: () => import("../views/Basvurular.vue"),
-        meta: {
-          tab_title: "Başvurular",
-        },
-      },
-      {
         path: "/duyurular",
         name: "duyurular",
         component: () => import("../views/Duyurular.vue"),

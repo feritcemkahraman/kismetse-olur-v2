@@ -25,9 +25,6 @@
             <router-link to="/" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Anasayfa</router-link>
           </li>
           <li>
-            <router-link to="/basvurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Başvurular</router-link>
-          </li>
-          <li>
             <router-link to="/duyurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Duyurular</router-link>
           </li>
           <li>
