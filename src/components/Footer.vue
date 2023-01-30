@@ -17,7 +17,7 @@
       </ul>
     </div>
     <hr class="my-6 border-gray-300 sm:mx-auto lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center">© 2023 Ferit Cem Kahraman | Kısmetse Olur v2 | All Rights Reserved.</span>
+    <span class="block text-sm text-gray-500 sm:text-center sm:pl-6">© 2023 Ferit Cem Kahraman | Kısmetse Olur v2 | All Rights Reserved.</span>
   </footer>
 </template>
 
@@ -27,8 +27,6 @@ export default {};
 
 <style scoped>
 #foot {
-  /* position: absolute;
-  bottom: 0; */
   width: 100%;
 }
 </style>
