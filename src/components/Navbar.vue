@@ -17,8 +17,8 @@
           </li>
         </ul>
       </div>
-      <a href="/" class="flex items-center ml-4">
-        <img src="/img/logo-500.png" class="h-14 sm:h-20 sm:ml-20" alt="Kısmetse Olur" />
+      <a href="/" class="flex items-center md:ml-4">
+        <img src="/img/logo-500.png" class="h-16 my-2 ml-20 md:my-0 md:h-20 md:ml-0" alt="Kısmetse Olur" />
       </a>
     </div>
     <div class="navbar-center hidden lg:flex">
@@ -34,19 +34,14 @@
         </li>
       </ul>
     </div>
-    <div class="navbar-end lg:pr-48">
-      <button type="button" class="text-white bg-pink-600 hover:bg-pink-500 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center sm:ml-3 md:mr-0 sm:text-xs sm:py-3 sm:px-7">Başvur</button>
+    <div class="navbar-end md:pr-48">
+      <button type="button" class="text-white text-center bg-pink-600 hover:bg-pink-500 transition duration-200 font-bold rounded-lg text-sm px-5 py-2.5 md:text-md md:px-8 md:py-2.5 md:ml-3">Başvur</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {};
-// set the target element that will be collapsed or expanded (eg. navbar menu)
-const targetEl = document.getElementById("targetEl");
-
-// optionally set a trigger element (eg. a button, hamburger icon)
-const triggerEl = document.getElementById("triggerEl");
 </script>
 
 <style></style>
