@@ -24,7 +24,7 @@
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal lg:pl-12 lg:gap-20">
         <li>
-          <router-link to="/" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg font-bold md:p-0 focus:text-red-500 hover:scale-125 hover:bg-transparent focus:bg-pink-100 duration-200" aria-current="page">Anasayfa</router-link>
+          <router-link to="/" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg font-bold md:p-0 focus:text-red-500 hover:scale-125 duration-200 hover:bg-transparent focus:bg-pink-100" aria-current="page">Anasayfa</router-link>
         </li>
         <li>
           <router-link to="/duyurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg font-bold md:p-0 focus:text-red-500 hover:scale-125 hover:bg-transparent focus:bg-pink-100 duration-200" aria-current="page">Duyurular</router-link>

@@ -1,8 +1,8 @@
 <template>
-  <div class="flex justify-center items-center mt-64 mb-64">
-    <div class="card shadow-xl">
-      <figure class="px-10 pt-10">
-        <img src="/img/logo-500.png" alt="Shoes" class="rounded-xl" />
+  <div class="flex justify-center items-center mt-56 mb-64 md:mt-64 md:mb-64">
+    <div class="card shadow-xl mx-7 md:mx-0">
+      <figure class="px-10 pt-9 md:pt-10">
+        <img src="/img/logo-500.png" alt="Kısmetse Olur Logo" class="rounded-xl" />
       </figure>
       <div class="card-body items-center text-center">
         <h1 class="card-title mb-12 text-white">Kısmetse Olur Başvuru Formu</h1>
