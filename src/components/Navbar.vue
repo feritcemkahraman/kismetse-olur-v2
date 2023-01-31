@@ -35,7 +35,7 @@
       </ul>
     </div>
     <div class="navbar-end lg:pr-48">
-      <button type="button" class="text-white bg-pink-600 hover:bg-pink-500 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center sm:ml-3 md:mr-0 sm:text-xs">Başvur</button>
+      <button type="button" class="text-white bg-pink-600 hover:bg-pink-500 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center sm:ml-3 md:mr-0 sm:text-xs sm:py-3 sm:px-7">Başvur</button>
     </div>
   </div>
 </template>
