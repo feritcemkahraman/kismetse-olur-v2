@@ -18,7 +18,7 @@
         </ul>
       </div>
       <a href="/" class="flex items-center ml-4">
-        <img src="/img/logo-500.png" class="h-14 sm:h-20" alt="Kısmetse Olur" />
+        <img src="/img/logo-500.png" class="h-14 sm:h-20 sm:ml-20" alt="Kısmetse Olur" />
       </a>
     </div>
     <div class="navbar-center hidden lg:flex">
@@ -35,7 +35,7 @@
       </ul>
     </div>
     <div class="navbar-end lg:pr-48">
-      <button type="button" class="text-white bg-pink-600 hover:bg-pink-500 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center sm:ml-3 md:mr-0">Başvur</button>
+      <button type="button" class="text-white bg-pink-600 hover:bg-pink-500 transition duration-600 font-medium rounded-lg text-md px-8 py-2.5 text-center sm:ml-3 md:mr-0 sm:text-xs">Başvur</button>
     </div>
   </div>
 </template>
