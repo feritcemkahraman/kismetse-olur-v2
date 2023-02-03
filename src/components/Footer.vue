@@ -46,10 +46,10 @@
           <router-link to="/kullanim-gizlilik" class="block py-2 px-5 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Kullanım Şartları ve Gizlilik Politikası</router-link>
         </li>
         <li>
-          <router-link to="/basvurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Aydınlatma Metni</router-link>
+          <router-link to="/aydinlatma-metni" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Aydınlatma Metni</router-link>
         </li>
         <li>
-          <router-link to="/duyurular" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Çerez Politikası</router-link>
+          <router-link to="/cerez-politikasi" class="block py-2 pl-3 pr-4 text-black md:text-black text-sm md:p-0 focus:text-red-500 hover:scale-125 duration-200" aria-current="page">Çerez Politikası</router-link>
         </li>
       </ul>
     </div>

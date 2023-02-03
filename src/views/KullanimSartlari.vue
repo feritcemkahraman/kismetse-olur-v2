@@ -1,6 +1,6 @@
 <template>
   <div id="cont" class="container text-white font-bold mt-16 p-5 mx-auto mb-16">
-    <h1 class="uppercase text-3xl mb-6 text-center text-black">Kullanım Koşulları</h1>
+    <h1 class="text-3xl mb-6 text-center text-black">Kullanım Koşulları</h1>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, quia harum. Dolores architecto deleniti nam unde, mollitia aspernatur! Laboriosam iusto reiciendis magni cupiditate aut. Accusantium dolor nisi ipsum libero. Minus,
       necessitatibus. Placeat reprehenderit nostrum perferendis, ipsam illum ad vel ratione assumenda suscipit facere error rerum hic saepe eaque temporibus mollitia dicta laborum dignissimos animi, quae dolorem excepturi fuga nobis odio.
@@ -32,7 +32,7 @@
       enim quo exercitationem aliquam! Iusto minus harum perferendis molestiae tempora eligendi obcaecati temporibus cum distinctio corporis, ex nulla a eius excepturi ad mollitia fugiat ipsam voluptas cumque quidem at voluptate. Beatae culpa,
       reiciendis fugit eaque vero, vel repudiandae ratione harum consectetur adipisci aspernatur rem!
     </p>
-    <h1 class="uppercase text-3xl mb-6 mt-6 text-center text-black">Gizlilik Politikası</h1>
+    <h1 class="text-3xl mb-6 mt-6 text-center text-black">Gizlilik Politikası</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, eum laborum labore, doloremque facilis, ipsa vero odit esse earum quo iusto quaerat voluptates magni repellat minus eius. Soluta, tempora sapiente natus at odio eius numquam,
       quia et dolore eum autem mollitia vel porro ratione possimus, hic magnam ut? Explicabo recusandae, temporibus molestiae debitis assumenda enim sit autem expedita deserunt ab itaque mollitia et illo perspiciatis magni laborum repellendus

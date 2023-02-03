@@ -1,6 +1,6 @@
 <template>
   <div id="cont2" class="container text-white font-bold mt-16 mb-16 p-5 mx-auto">
-    <h1 class="text-3xl mb-6 mt-6 sm:text-center">Kişisel Verilerin İşlenmesine İlişkin Yarışmacı Adayı Aydınlatma Metni</h1>
+    <h1 class="text-3xl text-black mb-6 mt-6 sm:text-center">Kişisel Verilerin İşlenmesine İlişkin Yarışmacı Adayı Aydınlatma Metni</h1>
     <p>
       <strong class="text-black">Kısmetse Olur: Aşkın Gücü</strong>
       olarak 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) ve ilgili mevzuat kapsamında; kişisel verilerinizin işlenmesi, saklanması ve aktarılması ile ilgili siz değerli yarışmacı adaylarımızı aydınlatmak amacıyla işbu aydınlatma metnini

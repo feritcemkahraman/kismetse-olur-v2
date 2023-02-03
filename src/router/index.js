@@ -43,6 +43,14 @@ const routes = [
           tab_title: "Kişisel Verilerin İşlenmesine İlişkin Yarışmacı Adayı Aydınlatma Metni",
         },
       },
+      {
+        path: "/cerez-politikasi",
+        name: "cerez-politikasi",
+        component: () => import("../views/CerezPolitikasi.vue"),
+        meta: {
+          tab_title: "Çerez Politikası",
+        },
+      },
     ],
   },
 ];
