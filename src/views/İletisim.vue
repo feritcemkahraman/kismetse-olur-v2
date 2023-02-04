@@ -41,7 +41,7 @@
             <span class="mb-1">Message</span>
             <textarea rows="3" class="block w-full p-2 bg-white rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 -800 text-black"></textarea>
           </label>
-          <button type="button" class="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-violet-400 text-gray-900 focus:ring-violet-400 hover:ring-violet-400 duration-200">Submit</button>
+          <button type="button" class="self-center px-8 py-3 text-lg rounded-lg focus:ring hover:ring focus:ring-opacity-75 bg-pink-600 text-white focus:ring-pink-500 hover:ring-pink-600 duration-200">Submit</button>
         </form>
       </div>
     </section>
