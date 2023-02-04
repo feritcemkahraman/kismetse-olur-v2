@@ -7,7 +7,7 @@
       <div class="card-body items-center text-center">
         <h1 class="card-title mb-12 text-white">Kısmetse Olur Başvuru Formu</h1>
         <div class="card-actions">
-          <button class="btn btn-primary px-32 mb-2 text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case">Başvur</button>
+          <router-link to="/basvuru-formu"><button class="btn btn-primary px-32 mb-2 text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case">Başvur</button></router-link>
         </div>
         <div class="card-actions mb-2">
           <router-link :to="{ path: '/aydinlatma-metni' }" target="_blank"><button class="btn btn-primary px-4 border-l text-lg bg-pink-600 hover:bg-pink-500 border-none normal-case">Yarışmacı Adayı Aydınlatma Metni</button></router-link>

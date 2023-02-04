@@ -35,7 +35,9 @@
       </ul>
     </div>
     <div class="navbar-end md:pr-48">
-      <button type="button" class="text-white text-center bg-pink-600 hover:bg-pink-500 transition duration-200 font-bold rounded-lg text-sm px-5 py-2.5 md:text-md md:px-8 md:py-2.5 md:ml-3">Başvur</button>
+      <router-link to="/basvuru-formu">
+        <button type="button" class="text-white text-center bg-pink-600 hover:bg-pink-500 transition duration-200 font-bold rounded-lg text-sm px-5 py-2.5 md:text-md md:px-8 md:py-2.5 md:ml-3">Başvur</button>
+      </router-link>
     </div>
   </div>
 </template>

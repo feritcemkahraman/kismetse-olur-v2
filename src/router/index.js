@@ -51,6 +51,14 @@ const routes = [
           tab_title: "Çerez Politikası",
         },
       },
+      {
+        path: "/basvuru-formu",
+        name: "basvuru-formu",
+        component: () => import("../views/BasvuruFormu.vue"),
+        meta: {
+          tab_title: "Kısmetse Olur Başvuru Formu",
+        },
+      },
     ],
   },
 ];
