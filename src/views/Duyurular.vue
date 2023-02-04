@@ -1,5 +1,5 @@
 <template>
-  <div id="cont" class="container text-white font-bold mt-16 p-5 mx-auto mb-16">
+  <div id="cont" class="container text-white font-bold mt-16 p-5 mb-16 md:mx-auto">
     <h1 class="text-3xl mb-6 text-center text-black">Duyurular</h1>
     <p class="text-center justify-center mx-auto bg-purple-500 w-96 rounded shadow-lg px-5 py-5">Henüz yayınlanmış bir duyuru yok</p>
   </div>

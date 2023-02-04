@@ -5,7 +5,7 @@
         <label tabindex="0" class="btn btn-secondary lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </label>
-        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-500 rounded-box w-52">
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-8 p-2 shadow bg-pink-400 rounded-box w-52">
           <li>
             <router-link to="/" class="block py-2 pl-3 pr-4 text-black md:text-black text-lg font-bold md:p-0 focus:text-red-500 duration-200" aria-current="page">Anasayfa</router-link>
           </li>
