@@ -1,7 +1,127 @@
 <template>
   <div id="cont" class="container text-white font-bold mt-16 p-5 mb-16 md:mx-auto">
-    <h1 class="text-3xl mb-6 text-center text-black">Duyurular</h1>
-    <p class="text-center justify-center mx-auto bg-purple-500 w-96 rounded shadow-lg px-5 py-5">Henüz yayınlanmış bir duyuru yok</p>
+    <h1 class="text-3xl mb-12 text-center text-black">Kısmetse Olur Başvuru Formu</h1>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Adınız</span>
+        <input type="text" name="name" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Soyadınız</span>
+        <input type="text" name="surname" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Adresiniz</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-2 mb-1 ml-7 md:flex md:items-center md:justify-center md:ml-9 md:mr-64 text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Yaşadığınız Şehir</span>
+        <select class="form-select mt-1 p-1 bg-white rounded-md shadow-md focus:outline-none border focus:border-purple-600" id="sehir" name="Şehir" required="">
+          <option value="0" selected="">Seçiniz</option>
+          <option value="Adana">Adana</option>
+          <option value="Adıyaman">Adıyaman</option>
+          <option value="Afyon">Afyon</option>
+          <option value="Ağrı">Ağrı</option>
+          <option value="Aksaray">Aksaray</option>
+          <option value="Amasya">Amasya</option>
+          <option value="Ankara">Ankara</option>
+          <option value="Antalya">Antalya</option>
+          <option value="Ardahan">Ardahan</option>
+          <option value="Artvin">Artvin</option>
+          <option value="Aydın">Aydın</option>
+          <option value="Balıkesir">Balıkesir</option>
+          <option value="Bartın">Bartın</option>
+          <option value="Batman">Batman</option>
+          <option value="Bayburt">Bayburt</option>
+          <option value="Bilecik">Bilecik</option>
+          <option value="Bingöl">Bingöl</option>
+          <option value="Bitlis">Bitlis</option>
+          <option value="Bolu">Bolu</option>
+          <option value="Burdur">Burdur</option>
+          <option value="Bursa">Bursa</option>
+          <option value="Çanakkale">Çanakkale</option>
+          <option value="Çankırı">Çankırı</option>
+          <option value="Çorum">Çorum</option>
+          <option value="Denizli">Denizli</option>
+          <option value="Diyarbakır">Diyarbakır</option>
+          <option value="Düzce">Düzce</option>
+          <option value="Edirne">Edirne</option>
+          <option value="Elazığ">Elazığ</option>
+          <option value="Erzincan">Erzincan</option>
+          <option value="Erzurum">Erzurum</option>
+          <option value="Eskişehir">Eskişehir</option>
+          <option value="Gaziantep">Gaziantep</option>
+          <option value="Giresun">Giresun</option>
+          <option value="Gümüşhane">Gümüşhane</option>
+          <option value="Hakkari">Hakkari</option>
+          <option value="Hatay">Hatay</option>
+          <option value="Iğdır">Iğdır</option>
+          <option value="Isparta">Isparta</option>
+          <option value="Mersin">İçel(Mersin)</option>
+          <option value="İstanbul-Anadolu">İstanbul-Anadolu</option>
+          <option value="İstanbul-Avrupa">İstanbul-Avrupa</option>
+          <option value="İzmir">İzmir</option>
+          <option value="Karabük">Karabük</option>
+          <option value="Karaman">Karaman</option>
+          <option value="Kars">Kars</option>
+          <option value="Kastamonu">Kastamonu</option>
+          <option value="Kayseri">Kayseri</option>
+          <option value="Kırıkkale">Kırıkkale</option>
+          <option value="Kırklareli">Kırklareli</option>
+          <option value="Kırşehir">Kırşehir</option>
+          <option value="Kilis">Kilis</option>
+          <option value="Kocaeli">Kocaeli</option>
+          <option value="Konya">Konya</option>
+          <option value="Kütahya">Kütahya</option>
+          <option value="Malatya">Malatya</option>
+          <option value="Manisa">Manisa</option>
+          <option value="Kahramanmaraş">Kahramanmaraş</option>
+          <option value="Mardin">Mardin</option>
+          <option value="Muğla">Muğla</option>
+          <option value="Muş">Muş</option>
+          <option value="Nevşehir">Nevşehir</option>
+          <option value="Niğde">Niğde</option>
+          <option value="Ordu">Ordu</option>
+          <option value="Osmaniye">Osmaniye</option>
+          <option value="Rize">Rize</option>
+          <option value="Sakarya">Sakarya</option>
+          <option value="Samsun">Samsun</option>
+          <option value="Siirt">Siirt</option>
+          <option value="Sinop">Sinop</option>
+          <option value="Sivas">Sivas</option>
+          <option value="Şırnak">Şırnak</option>
+          <option value="Tekirdağ">Tekirdağ</option>
+          <option value="Tokat">Tokat</option>
+          <option value="Trabzon">Trabzon</option>
+          <option value="Tunceli">Tunceli</option>
+          <option value="Şanlıurfa">Şanlıurfa</option>
+          <option value="Uşak">Uşak</option>
+          <option value="Van">Van</option>
+          <option value="Yalova">Yalova</option>
+          <option value="Yozgat">Yozgat</option>
+          <option value="Zonguldak">Zonguldak</option>
+          <option value="Yurtdışı">Yurtdışı</option>
+        </select>
+      </label>
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="block text-md text-black font-bold">Ev/İş Telefonunuz</span>
+        <input type="text" name="surname" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Cep Telefonunuz</span>
+        <input type="text" name="surname" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
   </div>
 </template>
 
