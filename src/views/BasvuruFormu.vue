@@ -236,6 +236,36 @@
         </div>
       </div>
     </div>
+    <div class="mt-1 mb-1 ml-7 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Evlenmek istediğiniz kişide nasıl özellikler arıyorsunuz?</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-3 mb-1 ml-7 md:ml-1 md:pr-4 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md md:w-72 text-black font-bold">Daha önce evlendiniz mi? Evlendiyseniz neden boşandınız ve çocuğunuz var mı? Varsa kaç tane ve kaç yaşındalar?</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-3 mb-1 md:pr-4 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Evlilik kararınızı aileniz ne kadar etkiler?</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-3 mb-1 md:pr-4 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Evlilik kurumunu nasıl tanımlarsınız?</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-3 mb-1 ml-7 md:ml-16 md:pl-4 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Birlikte yaşadığınız insanlar hangi huyunuzdan şikayet ederler?</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
   </div>
 </template>
 
