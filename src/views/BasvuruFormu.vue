@@ -122,6 +122,120 @@
         <input type="text" name="surname" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
       </label>
     </div>
+    <div class="md:flex md:items-center md:justify-center md:mr-72">
+      <div class="w-32 ml-7 text-black font-bold">
+        <div class="form-control">
+          <span class="block text-md md:ml-1 text-black font-bold">Cinsiyetiniz</span>
+          <label class="label cursor-pointer">
+            <span class="text-black font-bold">Erkek</span>
+            <input type="radio" name="radio-10" class="radio ring-2 ring-slate-900 checked:bg-red-500" checked />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="text-black font-bold">Kadın</span>
+            <input type="radio" name="radio-10" class="radio ring-2 ring-slate-900 checked:bg-pink-500" />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="mt-1 mb-1 grid mr-52 justify-center items-center text-black">
+      <label for="date" class="mb-1">Doğum Tarihiniz</label>
+      <input type="date" class="bg-white w-44 pl-5 pb-1 rounded-lg shadow-md text-center" id="date" name="Tarih" placeholder="" required="" />
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Sosyal Medya Hesaplarınız</span>
+        <textarea rows="4" name="adress" class="mt-1 px-3 py-2 w-96 max-h-60 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-2 mb-1 ml-7 md:flex md:items-center md:justify-center md:ml-6 md:mr-72 text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Göz Renginiz</span>
+        <select class="form-select mt-1 p-1 bg-white rounded-md shadow-md focus:outline-none border focus:border-purple-600" id="eyecolor" name="Göz Rengi" required="">
+          <option selected="">Seçiniz</option>
+          <option value="Ela">Ela</option>
+          <option value="Gri">Gri</option>
+          <option value="Kahverengi">Kahverengi</option>
+          <option value="Mavi">Mavi</option>
+          <option value="Yeşil">Yeşil</option>
+          <option value="Siyah">Siyah</option>
+        </select>
+      </label>
+    </div>
+    <div class="mt-2 mb-1 ml-7 md:flex md:items-center md:justify-center md:ml-6 md:mr-72 text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Saç Renginiz</span>
+        <select class="form-select mt-1 p-1 bg-white rounded-md shadow-md focus:outline-none border focus:border-purple-600" id="haircolor" name="Saç Rengi" required="">
+          <option selected="">Seçiniz</option>
+          <option value="Beyaz">Beyaz</option>
+          <option value="Kumral">Kumral</option>
+          <option value="Kahve">Kahverengi</option>
+          <option value="Kızıl">Kızıl</option>
+          <option value="Sarı">Sarı</option>
+          <option value="Siyah">Siyah</option>
+        </select>
+      </label>
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Boyunuz</span>
+        <input type="text" name="surname" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="mt-1 mb-1 flex justify-center items-center text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Kilonuz</span>
+        <input type="text" name="surname" class="mt-1 px-3 py-2 w-96 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1" />
+      </label>
+    </div>
+    <div class="md:flex md:items-center md:justify-center mt-3 md:mr-72">
+      <div class="w-32 ml-7 text-black font-bold">
+        <div class="form-control">
+          <span class="text-md md:ml-1 text-black font-bold">Medeni Durumunuz</span>
+          <label class="label cursor-pointer">
+            <span class="text-black font-bold">Evli</span>
+            <input type="radio" name="radio-10" class="radio ring-2 ring-slate-900 checked:bg-red-500" checked />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="text-black font-bold">Bekar</span>
+            <input type="radio" name="radio-10" class="radio ring-2 ring-slate-900 checked:bg-pink-500" />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="mt-2 mb-1 ml-7 md:flex md:items-center md:justify-center md:ml-2 md:mr-56 text-black">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md text-black font-bold">Öğrenim Durumunuz</span>
+        <select class="form-select mt-1 p-1 w-28 bg-white rounded-md shadow-md focus:outline-none border focus:border-purple-600" id="school" name="Öğrenim Durumunuz" required="">
+          <option selected="">Seçiniz</option>
+          <option value="İlköğretim">İlk Öğretim</option>
+          <option value="Lise">Lise ve Dengi</option>
+          <option value="Önlisans">Önlisans</option>
+          <option value="Lisans">Lisans</option>
+          <option value="Lisansüstü">Lisansüstü</option>
+        </select>
+      </label>
+    </div>
+    <div class="md:flex md:items-center md:justify-center mt-3 md:mr-72">
+      <div class="w-32 ml-7 text-black font-bold">
+        <span class="text-md ml-7 md:ml-1 text-black font-bold">Daha Önce Bir Yarışma Programına Katıldınız Mı?</span>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="text-black font-bold">Evet</span>
+            <input type="radio" name="radio-10" class="radio ring-2 ring-slate-900 checked:bg-red-500" checked />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="text-black font-bold">Hayır</span>
+            <input type="radio" name="radio-10" class="radio ring-2 ring-slate-900 checked:bg-pink-500" />
+          </label>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -137,6 +251,6 @@ export default {};
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  height: 66vh;
+  /* height: 66vh; */
 }
 </style>
