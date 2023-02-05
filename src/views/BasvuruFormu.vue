@@ -219,9 +219,9 @@
         </select>
       </label>
     </div>
-    <div class="md:flex md:items-center md:justify-center mt-3 md:mr-72">
-      <div class="w-32 ml-7 text-black font-bold">
-        <span class="text-md ml-7 md:ml-1 text-black font-bold">Daha Önce Bir Yarışma Programına Katıldınız Mı?</span>
+    <div class="md:items-center md:justify-center mt-3 md:ml-64">
+      <span class="text-md ml-7 md:ml-60 md:pl-2 md:w-96 text-black font-bold">Daha Önce Bir Yarışma Programına Katıldınız Mı?</span>
+      <div class="w-32 ml-7 md:ml-60 md:pl-1 text-black font-bold">
         <div class="form-control">
           <label class="label cursor-pointer">
             <span class="text-black font-bold">Evet</span>
