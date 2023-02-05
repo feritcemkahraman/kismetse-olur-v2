@@ -1,5 +1,5 @@
 <template>
-  <div id="cont" class="container text-white font-bold mt-16 p-5 mb-16 md:mx-auto">
+  <div id="cont" class="container text-white font-bold mt-16 p-5 mb-16 md:mx-auto md:max-w-5xl">
     <h1 class="text-3xl mb-12 text-center text-black">Kısmetse Olur Başvuru Formu</h1>
     <div class="mt-1 mb-1 flex justify-center items-center text-black">
       <label class="block">
@@ -219,7 +219,7 @@
         </select>
       </label>
     </div>
-    <div class="md:items-center md:justify-center mt-3 md:ml-64">
+    <div class="md:items-center md:justify-center mt-3 md:ml-12">
       <span class="text-md ml-7 md:ml-60 md:pl-2 md:w-96 text-black font-bold">Daha Önce Bir Yarışma Programına Katıldınız Mı?</span>
       <div class="w-32 ml-7 md:ml-60 md:pl-1 text-black font-bold">
         <div class="form-control">
